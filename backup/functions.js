@@ -76,7 +76,7 @@ async function authenticate() {
     myHeadersLogin.append("Content-Type", "application/json");
 
     const raw = JSON.stringify({
-        "key": "AnJcchaSPBkcpFdh4k24hMf72nVW4QME4KTGUivhKznfjpcC9BmKlgGJxf3Y98h7"
+        "key": ""
     });
 
     const requestOptions = {
@@ -101,7 +101,7 @@ async function authenticate() {
             }
         });
 
-        myHeaders.append("Authorize", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJiYWFzX2RldmljZV9pZCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsImJhYXNfZG9tYWluX2lkIjoiNjM3OTk3YTZlYmJjMDdhNWJlODFjZWViIiwiZXhwIjoxNzE5ODc1NTgyLCJpYXQiOjE3MTk4NzM3ODIsImlzcyI6IjY2ODMzMGY2NjYxYjEyYWQ1MjU2ZWUxNiIsImp0aSI6IjY2ODMzMGY2NjYxYjEyYWQ1MjU2ZWUyMCIsInN0aXRjaF9kZXZJZCI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsInN0aXRjaF9kb21haW5JZCI6IjYzNzk5N2E2ZWJiYzA3YTViZTgxY2VlYiIsInN1YiI6IjY2ODJjZWVhNDNhODllZjZjZWU4YWQ4YiIsInR5cCI6ImFjY2VzcyJ9.kZySs5pC74GPeZ_3Zdc0hMlC0Oj_S6WIcXoznHsfC0o");
+        myHeaders.append("Authorize", "");
 
         const data = {
             mode: 'no-cors',
